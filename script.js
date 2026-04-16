@@ -395,6 +395,9 @@ document.addEventListener('DOMContentLoaded', function() {
         card.addEventListener('mousemove', createParticleEffect);
     });
 
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+
+
     // DOM Status Monitor
     function checkEcosystemStatus() {
         const status = {
@@ -415,3 +418,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('🚀 ROSEAN-X Portfolio Loaded Successfully!');
 });
+<script defer src="/<unique-path>/script.js"> 
